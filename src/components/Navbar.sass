@@ -1,6 +1,41 @@
 .Navbar
     display: flex
     align-items: center
+    justify-content: center
 
 .logo
     height: 2rem
+    margin: 1rem
+
+.profile-pic
+    border-radius: 50%
+
+.menu
+    display: flex
+    align-items: center
+
+.burger-logo
+    margin-left: 1rem
+    margin-right: auto
+
+form
+    margin-left: auto
+    margin-right: auto
+
+.post-profile
+    margin-left: auto
+
+.search
+    display: none
+
+@media (max-width:760px)
+    .upload, .burger
+        display: none
+    .Searchbar
+        background-color: transparent
+        img
+            display: none
+    input[type=text], button
+        display: none
+    .search
+        display: block
