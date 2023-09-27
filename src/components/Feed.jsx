@@ -8,6 +8,8 @@ const Feed = () => {
       <div className='video-grid'>
         <VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/>
         <VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/>
+        <VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/>
+        <VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/><VideoCard/>
       </div>
       </>
     );

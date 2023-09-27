@@ -14,7 +14,7 @@ const Searchbar = () => {
       <form method="get" action="/search" accept-charset="UTF-8" className="Searchbar">
         <input type="text" placeholder="Search..." autoComplete="off" name="query" value={userInput} onChange={handleInputChange}/>
         <button type="submit">
-        <img src={searchbutton} alt="search button" className="logo search-button"/>
+        <img src={searchbutton} alt="search button" className="logo search-button" draggable="false"/>
         </button>
       </form>
     </>
