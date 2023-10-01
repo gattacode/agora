@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.sass";
 import Home from "./pages/Home.jsx";
-import Video from "./pages/Video.jsx";
+import Video from "./pages/VideoPage.jsx";
 
 function App() {
   return (

@@ -11,16 +11,16 @@ const SideBar = () => {
       <div className="page-menu">
         <div className="choice-menu">
           <a href="/">
-            <img src={house} alt="house logo" draggable="false"/>
+            <img src={house} alt="house logo" className="house" draggable="false"/>
           </a>
           <a href="/explore">
-            <img src={dice} alt="dice logo" draggable="false"/>
+            <img src={dice} alt="dice logo" className="dice" draggable="false"/>
           </a>
           <a href="/subscriptions">
-            <img src={group} alt="group logo" draggable="false"/>
+            <img src={group} alt="group logo" className="sublogo" draggable="false"/>
           </a>
           <a href="/history">
-            <img src={history} alt="history logo" draggable="false"/>
+            <img src={history} alt="history logo" className="history-logo" draggable="false"/>
           </a>
         </div>
         <img src={sun} alt="history logo" draggable="false"/>
