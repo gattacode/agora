@@ -21,15 +21,15 @@ const VideoPage = () => {
             <div className="video-reader">
               {demoVideo}
               <div className="video-description">
-                <img
-                  src={demoProfilePicture}
-                  alt="profile"
-                  draggable="false"
-                ></img>
+                <a href={demoChannelLink}>
+                  <img
+                    src={demoProfilePicture}
+                    alt="profile"
+                    draggable="false"
+                  ></img>
+                </a>
                 <div className="video-details">
-                  <a href={demoVideoLink}>
-                    <h2>{demoVideoTitle}</h2>
-                  </a>
+                  <h2>{demoVideoTitle}</h2>
                   <a href={demoChannelLink}>{demoChannelName}</a>
                 </div>
               </div>

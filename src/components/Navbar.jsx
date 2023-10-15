@@ -15,9 +15,9 @@ const Navbar = () => {
         </a>
         <Searchbar className="logo"></Searchbar>
         <div className="post-profile menu">
-          <img src={upload} alt="upload logo" className="logo upload" draggable="false"/>
+        <a href='/upload'><img src={upload} alt="upload logo" className="logo upload" draggable="false"/></a>
           <img src={search} alt="search logo" className="logo search" draggable="false"/>
-          <img src={userpic} alt="profile-pic logo" className="logo profile-pic" draggable="false"/>
+        <a href='/myaccount'><img src={userpic} alt="profile-pic logo" className="logo profile-pic" draggable="false"/></a>
         </div>
       </div>
     </>

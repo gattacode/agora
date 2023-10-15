@@ -6,6 +6,7 @@ import "./Home.sass";
 const Home = () => {
   return (
     <>
+      <div className="message">🚧 IMPORTANT: This project is currently under development and not yet ready for production use. </div>
       <div className="main-container">
         <Navbar />
         <div className="content">
