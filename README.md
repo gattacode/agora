@@ -54,15 +54,10 @@ Contributions, issues, and feature requests are welcome!
 
 - To all content creators aiming to spread knowledge and information.
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
 gattacode - [gatta.code@gmail.com](mailto:gatta.code@gmail.com)
 
-Project Link: [https://github.com/gattacode/agora](https://github.com/gattacode/agora)
 
 ---
 
